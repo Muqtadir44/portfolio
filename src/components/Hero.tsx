@@ -165,21 +165,21 @@ const Hero: React.FC = () => {
             }}
             className="mb-6 relative"
           >
-            <motion.span
+            {/* <motion.span
               animate={{ rotate: [0, 10, -10, 0] }}
               transition={{ duration: 2, repeat: Infinity, delay: 1 }}
               className="absolute -left-4 sm:-left-8 top-0 text-primary-400"
             >
               ✨
-            </motion.span>
+            </motion.span> */}
             <span className="text-primary-400 font-medium text-base sm:text-lg">Hello, I'm</span>
-            <motion.span
+            {/* <motion.span
               animate={{ rotate: [0, -10, 10, 0] }}
               transition={{ duration: 2, repeat: Infinity, delay: 1.5 }}
               className="absolute -right-4 sm:-right-8 top-0 text-primary-400"
             >
               ✨
-            </motion.span>
+            </motion.span> */}
           </motion.div>
 
           {/* Enhanced Name with letter-by-letter animation */}
